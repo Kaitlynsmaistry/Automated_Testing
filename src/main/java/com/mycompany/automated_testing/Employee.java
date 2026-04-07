@@ -10,8 +10,16 @@ package com.mycompany.automated_testing;
  */
 public class Employee {
    
+    private double salary;
     
-    public void CalculatedSalary(){
+    public Employee(double salary){
+        this.salary = salary;
+        
+    }  
+    public double CalculatedSalary(double bonus,double taxRate){
+        double grossSalary = salary ;
+        double tax = grossSalary * taxRate;
+        return grossSalary - tax;
     }
     
     
