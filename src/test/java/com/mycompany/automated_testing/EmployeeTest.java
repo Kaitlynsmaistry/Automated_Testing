@@ -26,7 +26,7 @@ public class EmployeeTest {
      * Test of CalculatedSalary method, of class Employee.
      */
     @Test
-    public void testCalculatedSalary() {
+     public void testCalculatedSalary() {
 //        System.out.println("CalculatedSalary");
 //        double bonus = 0.0;
 //        double taxRate = 0.0;
